@@ -3,10 +3,11 @@ import 'package:flutter/material.dart';
 import 'effects/indicator_effect.dart';
 import 'effects/worm_effect.dart';
 import 'painters/indicator_painter.dart';
+import 'package:preload_page_view/preload_page_view.dart';
 
 class SmoothPageIndicator extends AnimatedWidget {
   // a PageView controller to listen for page offset updates
-  final PageController controller;
+  final PreloadPageController controller;
 
   /// Holds effect configuration to be used in the [IndicatorPainter]
   final IndicatorEffect effect;

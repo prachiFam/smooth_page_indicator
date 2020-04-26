@@ -5,6 +5,8 @@ homepage: https://github.com/Milad-Akarie/smooth_page_indicator
 
 environment:
   sdk: ">=2.5.0 <3.0.0"
+  
+  preload_page_view: any
 
 dependencies:
   flutter:
